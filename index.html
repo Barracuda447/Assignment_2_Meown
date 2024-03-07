@@ -3,28 +3,49 @@
 
 <head>
     <title>Mobile Page</title>
-    <meta name="viewport" content="width=device-width" ,intial-scale="1">
+    <meta name="viewport" content="width=device-width" initial-scale=1>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <script src="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 </head>
 
 <body>
-    <div data-role="page">
-        <div date-role="header">
+    <div data-role="page"id = "page1">
+
+        <div data-role="header">
             <h1>My Mobile Page</h1>
         </div>
+
         <div role="main" class="ui-content">
-            <p>Hello world</p>
-            <p>click button</p>
-            <button id="Test" onClick="alert('Testing successful')" class="ui-btn">Test</button>
+            <p>Click the button below</p>
+             <button id="Test" onClick="alert('Testing Successfull')" class="ui-btn"> Test </button>
+
         </div>
-        <div datarole="footer">
-            <h1>
-                Bye World
-            </h1>
+
+        <div data-role="footer">
+            <h1>Bye World</h1>
         </div>
+
     </div>
+
+<div data-role="page" id="page2">
+
+        <div data-role="header">
+            <h1>My Mobile Page 2</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <p>Click the button below</p>
+             <a href="https://www.instagram.com/" class="ui-btn">Ig Link</a>
+
+        </div>
+
+        <div data-role="footer">
+            <h1>Bye World page2</h1>
+        </div>
+
+    </div>
+
 </body>
 
 </html>
